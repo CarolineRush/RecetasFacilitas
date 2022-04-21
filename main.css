@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* INDEX.HTML */
+body {
+    background-color: #fdddae;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+nav button {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    align-self: center;
+    width: 130px;
+    color: #fff;
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button__ingresar {
+    margin: 20px 10px 20px 20px;
+    color: #962a1c;
+    background-color: #da6e60;
+}
+
+.button__registrarse {
+    margin: 20px 30px 20px 10px;
+    color: #fff;
+    background-color: #962a1c;
+}
+
+main {
+    height: 73vh;
+}
+
+.las-haches {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding: 20px;
+    font-size: 4em;
+    font-family: 'Tangerine', cursive;
+    color: #962a1c;
+}
+
+.subtitle {
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    color: #962a1c;
+}
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+}
+
+.busqueda input {
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 7px;
+    width: 500px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+}
+
+.busqueda button {
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 7px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    background-color: #962a1c;
+    font-family: 'Nunito', sans-serif;
+}
+
+.busqueda button:hover {
+    color: #962a1c;
+    background-color: #da6e60;
+    
+}
+
+.buttons__mas-buscado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.buttons__mas-buscado_p {
+    color: #962a1c;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 0 10px;
+}
