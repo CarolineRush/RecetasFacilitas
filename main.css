@@ -19,7 +19,6 @@ nav button {
     border: none;
     align-self: center;
     width: 130px;
-    color: #fff;
     font-weight: 500;
     font-size: medium;
     letter-spacing: 1px;
@@ -74,6 +73,7 @@ main {
 .title {
     padding: 15px;
     font-size: 5em;
+    letter-spacing: 1px;
     font-family: 'Tangerine', cursive;
     color: #962a1c;
 }

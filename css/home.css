@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fdddae;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+}
+
+.nav__busqueda {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav__busqueda h1 {
+    padding: 10px;
+    align-self: center;
+    color: #962a1c;
+    font-weight: 700;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+    font-family: 'Tangerine', cursive;
+}
+
+.nav__busqueda input {
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    width: 275px;
+    padding: 7px;
+    margin-right: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav__buttons {
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+}
+
+.button__ingresar {
+    margin: 20px 10px 20px 20px;
+    background-color: #da6e60;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 130px;
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button__ingresar a {
+    color: #962a1c;
+    text-decoration: none;
+    background-image: linear-gradient(#da6e60, #962a1c);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.button__registrarse {
+    margin: 20px 30px 20px 10px;
+    background-color: #962a1c;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 130px;
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button__registrarse a {
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(#962a1c, #fff);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
