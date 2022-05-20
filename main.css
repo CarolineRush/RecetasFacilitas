@@ -11,7 +11,7 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
-    height: 100px;
+    height: 90px;
 }
 
 nav button {
@@ -29,36 +29,58 @@ nav button {
 
 .button__ingresar {
     margin: 20px 10px 20px 20px;
-    color: #962a1c;
     background-color: #da6e60;
+}
+
+.button__ingresar a {
+    color: #962a1c;
+    text-decoration: none;
+    background-image: linear-gradient(#da6e60, #962a1c);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
 .button__registrarse {
     margin: 20px 30px 20px 10px;
-    color: #fff;
     background-color: #962a1c;
 }
 
+.button__registrarse a {
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(#962a1c, #fff);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
 main {
-    height: 73vh;
+    height: 65vh;
 }
 
 .las-haches {
-    margin: 30px 100px;
+    margin: 15px 0 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .title {
-    padding: 20px;
-    font-size: 4em;
+    padding: 15px;
+    font-size: 5em;
     font-family: 'Tangerine', cursive;
     color: #962a1c;
 }
 
 .subtitle {
-    padding: 20px;
+    padding: 10px;
     font-size: 1em;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
@@ -72,9 +94,9 @@ main {
 
 .busqueda input {
     padding: 10px;
-    margin: 0 10px;
+    margin: 0 7px;
     border-radius: 7px;
-    width: 500px;
+    width: 600px;
     border: none;
     font-family: 'Nunito', sans-serif;
     outline: none;
@@ -82,7 +104,7 @@ main {
 
 .busqueda button {
     padding: 10px;
-    margin: 0 10px;
+    margin: 0 7px;
     border-radius: 7px;
     width: 100px;
     border: none;
@@ -101,14 +123,71 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 12px;
     padding: 10px;
 }
 
 .buttons__mas-buscado_p {
     color: #962a1c;
     font-family: 'Nunito', sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    padding: 0 0 10px;
+    font-size: 0.75em;
+    margin: 0 0 5px;
+}
+
+.buttons__mas-buscado_button button {
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    width: 110px;
+    background-color: #da6e60;
+    font-size: 0.80em;
+    margin: 10px 3px;
+}
+
+.buttons__mas-buscado_button button a {
+    color: #962a1c;
+    text-decoration: none;
+}
+
+.buttons__mas-buscado_button button a:hover {
+    text-decoration: underline;
+}
+
+.keywords {
+    display: flex;
+    justify-content: center;
+}
+.keywords a {
+    margin: 7px 30px;
+    font-size: 0.8em;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #da6e60;
+    font-variant: small-caps;
+}
+
+.keywords a:hover {
+    color: #962a1c;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 5px;
+}
+
+.copy p {
+    font-family: 'Nunito', sans-serif;
+    color: #da6e60;
+    font-size: 0.65em;
+}
+
+.copy p a {
+    text-decoration: none;
+    color: #962a1c;
+}
+
+.copy p a:hover {
+    text-decoration: underline ;
 }
