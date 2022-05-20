@@ -100,3 +100,108 @@ nav {
 a:hover, a:focus {
     background-size: 100% 2px;
 }
+
+/* MAIN --> ARTICLE */
+
+main {
+    display: flex;
+    padding: 0 20px 0;
+    border: solid black 1px;
+}
+
+.article__principal {
+    width: 50%;
+    border: solid black 1px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__section1 p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #962a1c;
+    font-family: 'Nunito', sans-serif;
+}
+
+.principal__section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 {
+    background-color: #fff;
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 17px;
+    padding: 13px;
+}
+
+.images-icons {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.images-icons img {
+    width: 250px;
+    border-radius: 17px;
+}
+
+.card__icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 25px;
+    
+}
+
+.card__icons img {
+    width: 40px;
+}
+
+/* MAIN --> ASIDE */
+
+
+
+
+/* FOOTER */
+
+.keywords {
+    display: flex;
+    justify-content: center;
+}
+
+.keywords a {
+    margin: 7px 30px;
+    font-size: 0.8em;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #da6e60;
+    font-variant: small-caps;
+}
+
+.keywords a:hover {
+    color: #962a1c;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 5px;
+}
+
+.copy p {
+    font-family: 'Nunito', sans-serif;
+    color: #da6e60;
+    font-size: 0.65em;
+}
+
+.copy p a {
+    text-decoration: none;
+    color: #962a1c;
+}
+
+.copy p a:hover {
+    text-decoration: underline ;
+}
