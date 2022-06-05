@@ -26,11 +26,15 @@ nav {
 .nav__busqueda h1 {
     padding: 10px;
     align-self: center;
-    color: #962a1c;
     font-weight: 700;
     font-size: 2.8em;
     letter-spacing: 1px;
     font-family: 'Tangerine', cursive;
+}
+
+.nav__busqueda h1 a {
+    text-decoration: none;
+    color: #962a1c;
 }
 
 .nav__busqueda input {
@@ -111,7 +115,6 @@ main {
 
 .article__principal {
     width: 50%;
-    border: solid black 1px;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -144,7 +147,7 @@ main {
 }
 
 .images-icons img {
-    width: 250px;
+    width: 260px;
     border-radius: 17px;
 }
 
@@ -152,18 +155,64 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     margin-left: 25px;
-    
+    width: 60px;
 }
 
 .card__icons img {
-    width: 40px;
+    width: 25px;
+}
+
+.card__icons p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: #962a1c;
+}
+
+#card__icons--user {
+    width: 50px;
+}
+
+.card__text {
+    margin: 9px;
+    padding: 7px;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    color: #962a1c;
+}
+
+.card2 {
+    background-color: #fff;
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 17px;
+    padding: 13px;
+}
+
+.card3 {
+    background-color: #fff;
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 17px;
+    padding: 13px;
 }
 
 /* MAIN --> ASIDE */
 
+.aside {
+    border:  black solid 1px;
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
 
-
+.aside__text {
+    font-family: 'Nunito', sans-serif;
+}
 
 /* FOOTER */
 

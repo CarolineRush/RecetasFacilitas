@@ -107,7 +107,6 @@ main {
     border-radius: 7px;
     width: 100px;
     border: none;
-    color: #fff;
     background-color: #962a1c;
     font-family: 'Nunito', sans-serif;
 }
@@ -115,7 +114,11 @@ main {
 .busqueda button:hover {
     color: #962a1c;
     background-color: #da6e60;
-    
+}
+
+.busqueda button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .buttons__mas-buscado {
