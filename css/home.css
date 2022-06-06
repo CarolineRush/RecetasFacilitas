@@ -110,7 +110,6 @@ a:hover, a:focus {
 main {
     display: flex;
     padding: 0 20px 0;
-    border: solid black 1px;
 }
 
 .article__principal {
@@ -203,15 +202,54 @@ main {
 /* MAIN --> ASIDE */
 
 .aside {
-    border:  black solid 1px;
     width: 50%;
     margin: 5px;
     display: flex;
     flex-direction: column;
+    background-color: #fde9cb;
+    border-radius: 7px;
 }
 
 .aside__text {
+    margin: 10px 20px;
+    font-size: 1.2em;
+    color: #962a1c;
     font-family: 'Nunito', sans-serif;
+}
+
+.aside__buttons {
+    height: 100px;
+    display: flex;
+    width: 560px;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.aside__buttons button {
+    width: 150px;
+    height: 33px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #da6e60;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+
+.aside__buttons a {
+    text-decoration: none;
+    color: #962a1c;
+}
+
+.aside__buttons a:hover {
+    text-decoration: underline;
+}
+
+.favs {
+    margin-top: 30px;
 }
 
 /* FOOTER */
@@ -237,7 +275,7 @@ main {
 .copy {
     display: flex;
     justify-content: center;
-    margin: 20px 0 5px;
+    margin: 15px 0 20px;
 }
 
 .copy p {
